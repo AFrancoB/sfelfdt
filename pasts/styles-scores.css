@@ -1,0 +1,439 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  font-family: 'monoidnormal', Courier, Arial, Helvetica, sans-serif;
+  background-color: black;
+  position: relative;
+  min-height: 100%;
+}
+h1 {
+  font-size: larger;
+  text-align: left;
+}
+h2 {
+  font-size: 100%;
+  text-align: justify;
+}
+h3 {
+font-size: 80%;
+color: white;
+
+}
+.back-image {
+  background-image: url("assets/images/fondo1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  filter: blur(10px) brightness(60%);
+}
+.about {
+  color: #eeeeee;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 70%;
+  padding: 1%;
+}
+.academic-profile {
+  color: #eeeeee;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 70%;
+  padding: 1%;
+}
+.contact {
+  color: #eeeeee;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  height: 70%;
+  padding: 1%;
+}
+.futures {
+  position: absolute;
+  top: 15%;
+  flex-grow: 1;
+}
+
+.score-wrapper {
+  color: #eeeeee;
+  border: 1px solid #cccccc;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1%;
+}
+
+.footer {
+  color: #eeeeee;
+  position: absolute;
+  border: 1px solid #cccccc;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 1%;
+  text-align: right; 
+  background-color:black;
+  filter: opacity(50%);
+  padding-right: 5%;
+}
+
+.header {
+  color: #eeeeee;
+  position: absolute;
+  border: 0px solid #cccccc;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 5%;
+  padding: 1%;
+  text-align: left; 
+}
+
+.emblem {
+  display:block;
+  float:left;
+  color:#FFFFFF;
+  text-align:left;
+  font-size: 100%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-image: url("assets/images/tiles.png");
+}
+
+.header h1
+{
+display:block;
+float:left;
+color:#FFFFFF;
+text-align:center;
+font-size: 100%;
+padding-right: 1%;
+padding-left: 1%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+
+.header ul {
+	padding-left: 5%;
+	list-style-type:none;
+	height:1%;
+	text-align:left;
+	height:85px;
+	overflow:hidden;
+  background-color: black;
+  filter: opacity(50%);
+}
+
+.header ul li , .header ul li a, .header ul li a:visited{
+	display:block;
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:350%;
+	width:20%;
+	color:#FFFFFF;
+
+	font-size:100%;
+}
+
+.header ul li a:hover{
+  font-size: larger;
+}
+
+.header ul:hover{
+  background-color: black;
+  filter: opacity(100%);
+}
+
+.text-contact {
+  text-align: center;
+  line-height: 200%;
+  padding-left: 10%;
+}
+
+#portrait {
+  max-width:30%;
+  max-height:30%;
+  align-items: left;
+  float:left;
+  padding-right: 3%;
+  padding-bottom: 50%;
+  
+}
+
+.wrapper {
+  width: 50%;
+}
+
+.row {
+  display: flex
+}
+
+.column {
+  flex: 100%;
+  padding: 5px;
+  font-size: 200%;
+  color: rgb(255,255,255,0%);
+}
+
+.sig-row {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sig-column {
+  flex: 100%;
+  font-size: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 2em;
+  max-width:20%;
+  text-align: right;
+}
+
+.code-projects-left {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  width: 25%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  color: whitesmoke;
+
+}
+
+.code-projects-centre {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 25%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  color: whitesmoke;
+} 
+
+.code-projects-right {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  width: 25%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  color: whitesmoke;
+
+}
+
+.vid-1 {
+position: absolute;
+left: 25%;
+top: 125%;
+transform: translate(-50%,-50%);
+padding: 1%;
+border: #c8eaff solid;
+}
+
+.vid-2 {
+  position: absolute;
+  left: 75%;
+  top: 125%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  }
+
+.vid-3 {
+position: absolute;
+left: 25%;
+top: 175%;
+transform: translate(-50%,-50%);
+padding: 1%;
+border: #c8eaff solid;
+}
+
+.vid-4 {
+  position: absolute;
+  left: 75%;
+  top: 175%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  }
+
+.vid-5 {
+position: absolute;
+left: 25%;
+top: 225%;
+transform: translate(-50%,-50%);
+padding: 1%;
+border: #c8eaff solid;
+}
+
+.vid-6 {
+  position: absolute;
+  left: 75%;
+  top: 225%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  }
+
+.vid-7 {
+position: absolute;
+left: 25%;
+top: 275%;
+transform: translate(-50%,-50%);
+padding: 1%;
+border: #c8eaff solid;
+}
+
+.vid-8 {
+  position: absolute;
+  left: 75%;
+  top: 275%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  }
+
+.vid-9 {
+  position: absolute;
+  left: 50%;
+  top: 375%;
+  transform: translate(-50%,-50%);
+  padding: 1%;
+  border: #c8eaff solid;
+  }
+
+.column-static {
+  flex: 100%;
+  padding: 5px;
+  font-size: 100%;
+  color: whitesmoke;
+}
+
+.row-static {
+  display: flex
+}
+
+.UHMSection {
+  color: #FFFFFF;
+  padding:10%;
+  height: 100%;
+}
+
+.Tiem-TimeSection {
+  color: #FFFFFF;
+  padding:10%;
+  height: 100%;
+}
+
+.NILSection {
+  color: #FFFFFF;
+  padding:10%;
+  height: 100%;
+}
+
+.WordsSection {
+  color: #FFFFFF;
+  padding:10%;
+  height: 100%;
+}
+
+.sol-negro {
+  font-size: 3em;
+}
+
+.crepitarse {
+  font-size: 2em;
+}
+
+.cinco {
+  font-size: 2em;
+}
+
+.olvido {
+  font-size: 2em;
+}
+
+.sol-img {
+  filter: opacity(50%);
+}
+
+.crep-img {
+  filter: opacity(50%);
+  filter: invert(80%);
+}
+
+@font-face {
+  font-family: 'monoidnormal';
+  src: url('assets/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff2') format('woff2'),
+       url('assets/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* unvisited link */
+a:link {
+  color: #ccc;
+}
+/* visited link */
+a:visited {
+  color: #c8eaff;
+}
+/* mouse over link */
+a:hover {
+  color: #e3cbf1;
+  font-size: larger;
+}
+/* selected link */
+a:active {
+  color: #800000;
+}
+
+.column:hover {
+  font-size: 400%;
+  color: rgb(255,255,255,60%);
+}
+
+.uhmImage {
+filter: opacity(90%);
+}
+
+
+.futureImage:hover {
+  padding: 2%;
+  filter: blur(5px) opacity(40%);
+}
+
+.sol-img:hover {
+  filter: opacity(75%) blur(5px);
+}
+
+.crep-img:hover {
+  filter: opacity(75%) blur(5px) invert(80%);
+}
