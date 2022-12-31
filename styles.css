@@ -78,6 +78,13 @@ color: white;
   flex-grow: 1;
 }
 
+.futureImage {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
 .score-wrapper {
   color: #eeeeee;
   border: 1px solid #cccccc;
@@ -225,6 +232,21 @@ padding-bottom: 1%;
   color: #FFFFFF;
   padding:10%;
   height: 100%;
+}
+
+.UHMWeb {
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.uhmClass {
+  position: absolute;
+  top: 20%;
+  flex-grow: 1;
+}
+
+.xiuhTextAndVideo {
+  display: flex;
 }
 
 .Tiem-TimeSection {
