@@ -161,6 +161,14 @@ section {
     justify-content: center;
 }
 
+
+.gallery-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
 .gallery-item {
     flex: 1 1 calc(20% - 1rem);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -210,10 +218,66 @@ section {
     flex: 1 1 calc(33% - 1rem);
     color: white;
     display: none;
-    font-size:x-large;
+    font-size:large;
     min-width: 33%;
     min-height: 25%;
+    max-width: 33%;
 
+}
+
+.piralinks {
+    position: relative;
+    background-color: #333;
+    opacity: 50%;
+    z-index: 5;
+    flex: 3 3 calc(20% - 1rem);
+    color: white;
+    display: block;
+    font-size:large;
+    min-width: 30%;
+    max-width: 30%;
+    margin-bottom: 5%;
+}
+
+.piralinks:hover  {
+    opacity: 80%;
+}
+
+.pirapic {
+    position: absolute;
+    left:0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+
+.software-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.software {
+    font-size: larger;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.papers-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.papers {
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 5px;
 }
 
 .gallery-item2:hover .linksToArt {
